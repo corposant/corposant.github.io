@@ -211,17 +211,7 @@ h1, h2, h3, .serif {
   display: inline-block;
   position: relative;
 }
-.hero h1 .squig::after {
-  content: '';
-  position: absolute;
-  left: 4%;
-  right: 4%;
-  bottom: -8px;
-  height: 8px;
-  background:
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 8' preserveAspectRatio='none'><path d='M0 4 Q 15 0 30 4 T 60 4 T 90 4 T 120 4' fill='none' stroke='%236691b3' stroke-width='1.5' stroke-linecap='round'/></svg>") repeat-x;
-  background-size: 80px 8px;
-}
+
 .hero-lede {
   margin-top: 32px;
   max-width: 460px;
@@ -666,20 +656,12 @@ footer .hand {
     <a href="#" class="brand" aria-label="Pineau Group home">
       <div class="brand-logo-wrap">
         <img src="images/pineau-logo.jpg" alt="Pineau Group" class="brand-logo" width="138" height="52">
-        <span class="flag-pin" aria-label="Danish heritage">
-          <svg viewBox="0 0 22 16" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect width="22" height="16" fill="#c8102e"/>
-            <rect x="7" y="0" width="3" height="16" fill="#fff"/>
-            <rect x="0" y="6" width="22" height="3" fill="#fff"/>
-          </svg>
-        </span>
       </div>
       <div class="brand-tag">Annika Pineau · Realtor</div>
     </a>
     <div class="nav-links">
       <a href="#principles">Approach</a>
       <a href="#about">About</a>
-      <a href="#letters">Kind Words</a>
       <a href="#contact">Say Hello</a>
     </div>
   </div>
@@ -690,7 +672,6 @@ footer .hand {
   <div class="container">
     <div class="hero-grid">
       <div class="hero-copy">
-        <span class="hand">velkommen —</span>
         <h1>Find a place<br>that feels<br><em><span class="squig">like home.</span></em></h1>
         <p class="hero-lede">
           A slower, warmer way to buy and sell. We move at the pace of the
@@ -713,16 +694,7 @@ footer .hand {
         </div>
       </div>
 
-      <div class="hero-portrait">
-        <!-- Floating candle SVG (flickers gently via CSS) -->
-        <svg class="candle" viewBox="0 0 60 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <ellipse cx="30" cy="18" rx="22" ry="18" fill="#c89752" opacity="0.18"/>
-          <path d="M30 8 C 24 18, 24 26, 30 30 C 36 26, 36 18, 30 8 Z" fill="#e8a94a"/>
-          <path d="M30 14 C 27 20, 27 26, 30 28 C 33 26, 33 20, 30 14 Z" fill="#f4d99a"/>
-          <line x1="30" y1="30" x2="30" y2="36" stroke="#3a342b" stroke-width="1.2" stroke-linecap="round"/>
-          <rect x="22" y="36" width="16" height="48" rx="2" fill="#f4ead4" stroke="#d9cdb1" stroke-width="1"/>
-          <ellipse cx="30" cy="36" rx="8" ry="2.2" fill="#ebdfc4"/>
-        </svg>
+      <div class="hero-portrait">        
         <div class="frame">
           <img src="images/annika-portrait.jpg" alt="Annika Pineau" width="480" height="480" fetchpriority="high" decoding="async">
         </div>
@@ -821,52 +793,6 @@ footer .hand {
         </p>
         <div class="signature">— Annika</div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- LETTERS / TESTIMONIALS ========================================= -->
-<section class="letters" id="letters">
-  <div class="container">
-    <div class="letters-head">
-      <div class="eyebrow">Kind Words</div>
-      <h2>Letters from <em>home.</em></h2>
-    </div>
-
-    <div class="letters-grid">
-
-      <div class="letter">
-        <div class="letter-text">Annika treated our move like she was helping us settle her own sister. We had two offers within the first weekend — but more than that, we never felt rushed once.</div>
-        <div class="letter-attr">
-          <div class="avatar">M</div>
-          <div class="who"><strong>Maren &amp; Jonas</strong>Sellers · 2024</div>
-        </div>
-      </div>
-
-      <div class="letter">
-        <div class="letter-text">She is the only realtor I've worked with who asked which way the bedroom faced before she asked the price. I bought the house. I still have her recipe for julegløgg.</div>
-        <div class="letter-attr">
-          <div class="avatar">S</div>
-          <div class="who"><strong>Sofie P.</strong>Buyer · 2023</div>
-        </div>
-      </div>
-
-      <div class="letter">
-        <div class="letter-text">Calm, prepared, kind. Three offers in, and I still call Annika first whenever we think of moving. She remembers everything about our family.</div>
-        <div class="letter-attr">
-          <div class="avatar">D</div>
-          <div class="who"><strong>The Ramirez Family</strong>Returning clients</div>
-        </div>
-      </div>
-
-      <div class="letter">
-        <div class="letter-text">Moved across the country sight unseen. She FaceTimed me from every showing, asked good questions, and somehow knew which kitchen I'd love. She was right.</div>
-        <div class="letter-attr">
-          <div class="avatar">A</div>
-          <div class="who"><strong>Anya W.</strong>Relocation · 2024</div>
-        </div>
-      </div>
-
     </div>
   </div>
 </section>
